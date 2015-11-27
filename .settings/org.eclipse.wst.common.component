@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="struts2-blank-2.0.6">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="xwork-2.0.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/xwork-2.0.1/xwork-2.0.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts2-core-2.0.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts2-core-2.0.6/struts2-core-2.0.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ognl-2.6.11.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/ognl-2.6.11/ognl-2.6.11">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging-1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging-1.1/commons-logging-1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="freemarker-2.3.8.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/freemarker-2.3.8/freemarker-2.3.8">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="struts2-blank-2.0.6"/>
+        <property name="java-output-path" value="/struts2-blank-2.0.6/build/classes"/>
+    </wb-module>
+</project-modules>
